@@ -1,12 +1,83 @@
+:root {
+    --color-accent: #212121;
+    --color-primary: #757575;
+    --color-hover: #2196f3;
+    --font-family-primary: 'Roboto', sans-serif;
+}
+
+/*base*/
+body {
+    color: var(--color-accent);
+    font-size: 16px;
+    font-family: var(--font-family-primary);
+    font-weight: 400;
+}
+/*header*/
+
+.menu-link {
+    color:var(--color-accent);
+    font-size: 14px;
+    text-decoration: none;
+}
+.menu-link:hover {
+    color: var(--color-hover);
+}
+
+.contact-link {
+    color: var(--color-primary);
+    font-size: 14px;
+    text-decoration: none;
+}
+.contact-link:hover {
+    color: var(--color-hover);
+}
+/* Hero section*/
+
+.hero-background {
+    background-color: #2f303a;
+}
+
+.hero-title {
+    font-size: 44px;
+    text-align: center;
+    color:#FFFF ;
+    text-transform: uppercase;
+}
+
 .button {
-    color: #fff;
-    background-color: bisque;
+    padding: 10px 32px;
+    color: #FFFF;
+    background-color: var(--color-hover);
 }
 
-.button:hover {
-    background-color: blueviolet;
+/*main*/
+
+.title {
+    font-size: 14px;
+    color: var(--color-accent);
 }
 
-.button:focus {
-    background-color: aqua;
+.subtitle {
+    font-size: 14px;
+    color: var(--color-primary);
+}
+
+
+/*footer*/
+
+.footer-contacts {
+    font-style: normal;
+}
+
+
+/*portfolio*/
+
+.button-active {
+    padding: 10px 32px;
+    color: var(--color-accent);
+    background-color: #F5F4FA
+}
+
+.button-active:hover {
+    background-color: var(--color-hover);
 }
