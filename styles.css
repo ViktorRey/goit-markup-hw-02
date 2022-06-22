@@ -50,6 +50,7 @@ body {
 }
 
 .contact-link {
+    font-weight: 500;
     line-height: 1.14;
     letter-spacing: 0.02em;
     color: var(--color-primary);
@@ -89,6 +90,7 @@ body {
 /*main*/
 
 .title {
+    font-size: 14px;
     font-weight: 700;
     line-height: 1.14;
     text-transform: uppercase;
@@ -160,9 +162,11 @@ body {
 /*portfolio*/
 
 .button-active {
-    font-size: inherit;
+    font-family: 'Roboto';
+    font-size: 16px;
     font-weight: 500;
     padding: 10px 32px;
+    letter-spacing: 0.03em;
     line-height: 1.5;
     background-color: var(--color-button);
     
